@@ -1,51 +1,51 @@
 .container {
-  text-align: center;
-  padding-top: 25px;
+	text-align: center;
+	padding-top: 25px;
 }
 body {
-  font-family: "Raleway", sans-serif;
-  font-weight: normal;
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/notebook.png");
-  font-size: 110%;
-  color: #2d2d2a;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	background: url('https://www.toptal.com/designers/subtlepatterns/patterns/notebook.png');
+	font-size: 110%;
+	color: #2d2d2a;
 }
 #header {
-  font-weight: bold;
-  font-family: "Cabin Sketch", cursive;
-  font-size: 300%;
-  color: #3a3a36;
+	font-weight: bold;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 300%;
+	color: #3a3a36;
 }
 hr {
-  width: 500px;
-  border-bottom: 1px dashed black;
+	width: 500px;
+	border-bottom: 1px dashed black;
 }
 .btn {
-  border-radius: 10px;
+	border-radius: 10px;
 }
 .btn-primary,
 .btn-primary:active,
 .btn-primary:visited,
 btn-primary:focus {
-  background-color: #3a3a36;
-  border: 0px solid transparent;
+	background-color: #3a3a36;
+	border: 0px solid transparent;
 }
 .btn-primary:hover {
-  background-color: #5e5e57;
-  border: 0px solid transparent;
+	background-color: #5e5e57;
+	border: 0px solid transparent;
 }
 #currentPoem {
-  padding-top: 7px;
+	padding-top: 7px;
 }
 .poem-box {
-  text-align: left;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0.5px;
-  margin-bottom: 20px;
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/notebook.png");
+	text-align: left;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0.5px;
+	margin-bottom: 20px;
+	background: url('https://www.toptal.com/designers/subtlepatterns/patterns/notebook.png');
 }
 .btn:focus,
 .btn:active {
-  outline: none !important;
-  box-shadow: none !important;
+	outline: none !important;
+	box-shadow: none !important;
 }

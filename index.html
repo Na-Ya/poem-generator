@@ -1,67 +1,71 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Poem Generator - Final </title>
+  <title>Poem Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
 
-      <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
-  
+
 </head>
 
 <body>
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<link href="https://file.myfontastic.com/CmzyYGRxVQ8x7ULwEQ47Uc/icons.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Oswald|Raleway" rel="stylesheet">
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 id='header'>Poem Generator <i class="icon-homer-simpson"> </i></h1>
-      <!--   <hr> -->
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6 offset-3">
-      <div class="poem-box">
-        <p class="poemSpace" id="currentPoem">Let's make some poetry! Press the button below<i id="arrow" class="fas fa-lg fa-level-down-alt styler"></i></p>
+  <link href="https://file.myfontastic.com/CmzyYGRxVQ8x7ULwEQ47Uc/icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Oswald|Raleway" rel="stylesheet">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 id='header'>Poem Generator
+          <i class="icon-homer-simpson"> </i>
+        </h1>
+        <!--   <hr> -->
       </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-6 offset-3">
-      <div class="row">
-        <div class="col-sm-12">
-
-          <form class="form-inline">
-            <div class="col">
-              <label class="sr-only" for="WordsPerLine"># of Words/Line</label>
-              <input type="text" class="form-control mb-2 mr-sm-3 mb-sm-0" id="WordsPerLine" placeholder="#Words/Line" style="width:140px;">
-            </div>
-            <div class="col">
-              <label class="sr-only" for="LinesPerPoem">#LinesPerPoem</label>
-              <div class="input-group mb-2 mr-sm-3 mb-sm-0">
-                <input type="text" class="form-control" id="LinesPerPoem" placeholder="#Lines/Poem">
-              </div>
-            </div>
-            <div class="col">
-              <button type="submit" class="btn btn-primary" , id="newPoem">Generate Poem</button>
-          </form>
-
-          </div>
+    <div class="row">
+      <div class="col-sm-6 offset-3">
+        <div class="poem-box">
+          <p class="poemSpace" id="currentPoem">Let's make some poetry! Press the button below
+            <i id="arrow" class="fas fa-lg fa-level-down-alt styler"></i>
+          </p>
         </div>
       </div>
-
     </div>
-  
-  
 
-    <script  src="js/index.js"></script>
+    <div class="row">
+      <div class="col-sm-6 offset-3">
+        <div class="row">
+          <div class="col-sm-12">
+
+            <form class="form-inline">
+              <div class="col">
+                <label class="sr-only" for="WordsPerLine"># of Words/Line</label>
+                <input type="text" class="form-control mb-2 mr-sm-3 mb-sm-0" id="WordsPerLine" placeholder="#Words/Line" style="width:140px;">
+              </div>
+              <div class="col">
+                <label class="sr-only" for="LinesPerPoem">#LinesPerPoem</label>
+                <div class="input-group mb-2 mr-sm-3 mb-sm-0">
+                  <input type="text" class="form-control" id="LinesPerPoem" placeholder="#Lines/Poem">
+                </div>
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary" , id="newPoem">Generate Poem</button>
+            </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <script src="js/index.js"></script>
 
 
 
